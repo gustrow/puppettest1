@@ -6,4 +6,7 @@ node default {
     group => 'root',
     mode => '0664',
   }
+  file { '/root/prod.txt':
+    ensure => 'absent',
+  }
 }
