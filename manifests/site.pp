@@ -4,6 +4,6 @@ node default {
     content => 'hello world (production)',
     owner => 'root',
     group => 'root',
-    mode => '0640',
+    mode => '0660',
   }
 }
