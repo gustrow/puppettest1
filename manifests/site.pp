@@ -1,5 +1,5 @@
 node default {
-  file { '/root/puppettest1.txt':
+  file { '/root/test.txt':
     ensure => 'file',
     content => 'hello world test',
     owner => 'root',
