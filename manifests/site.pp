@@ -1,9 +1,9 @@
 node default {
   file { '/root/puppettest1.txt':
     ensure => 'file',
-    content => 'hello world (test)',
+    content => 'hello world test',
     owner => 'root',
     group => 'root',
-    mode => '0640',
+    mode => '0664',
   }
 }
